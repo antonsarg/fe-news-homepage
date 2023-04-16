@@ -52,7 +52,7 @@ function App() {
   ];
 
   return (
-    <div className="App relative">
+    <div className="App relative max-w-5xl">
       <nav>
         <div className="container flex justify-between pt-6 pb-4 md:pt-20">
           <div>
