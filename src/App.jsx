@@ -62,7 +62,7 @@ function App() {
             <img src={menuOpen ? iconMenuClose : iconMenu} alt="Menu Control" />
           </button>
           <div className={"fixed left-0 top-0 w-full h-full bg-neutral-very-dark-blue/40 opacity-0 pointer-events-none transition-opacity "  + (menuOpen && "opacity-100") }></div>
-          <div className={"fixed right-0 top-0 w-3/4 h-screen px-6 py-40 bg-neutral-off-white flex flex-col gap-7 transition-transform duration-500 md:static md:flex-row md:h-auto md:w-auto md:px-0 md:py-0 md:gap-10 " + (menuOpen ? "translate-x-0" : "translate-x-full md:translate-x-0") }>
+          <div className={"fixed right-0 top-0 w-3/4 h-screen px-6 py-40 flex flex-col gap-7 text-neutral-dark-grayish-blue bg-neutral-off-white transition-transform duration-500 md:static md:flex-row md:h-auto md:w-auto md:px-0 md:py-0 md:gap-10 " + (menuOpen ? "translate-x-0" : "translate-x-full md:translate-x-0") }>
             <a href="/home" className="hover:text-primary-soft-red">
               Home
             </a>
