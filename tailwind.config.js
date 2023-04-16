@@ -4,10 +4,6 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: {
-        DEFAULT: "1rem",
-        xl: "13rem",
-      },
     },
     colors: {
       primary: {
